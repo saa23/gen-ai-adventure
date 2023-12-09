@@ -163,6 +163,20 @@ Strengh:
 LLM that designed for dialog purpose created by Google in May 2021. The model size from 2B to 137B parameters. It is initially trained to predict the next token in a text corpus. LaMDA models is able to performs in both classification and text generation tasks.
 
 # 3. Introduction to Responsible AI
+- The need for a responsible AI practice within an organization
+- Organizations can design AI to fit their own business needs and values
+
+Nowadays AI can see, understand, and interact with the world. The advancement happened in remarkable pace.
+
+Developing responsible AI means we need to understand of the **possible issues**, **limitations**, and **unintended consequences**.
+
+For now, there is no a universal definition of responsible AI. Instead, organizations are developing their own definitions that suitable for them.
+
+But generally the principle of responsible AI consist of following:
+- transparency
+- fairness
+- accountability
+- privacy
 
 
 # 4. Generative AI Fundamentals
@@ -172,5 +186,7 @@ LLM that designed for dialog purpose created by Google in May 2021. The model si
 - [Introduction to Generative AI Learning Path by Google](https://www.cloudskillsboost.google/paths/118)
 - [Introduction to Generative AI](https://www.cloudskillsboost.google/course_templates/536)
 - [Introduction to LLM](https://www.cloudskillsboost.google/course_sessions/4021096/video/379143)
+- [Introduction to Responsible AI](https://www.cloudskillsboost.google/paths/118/course_templates/554)
+- [Generative AI Fundamentals](https://www.cloudskillsboost.google/paths/118/course_templates/556)
 - PaLM: https://medium.com/mlearning-ai/googles-pathways-to-language-model-palm-scaling-to-new-heights-in-ai-understanding-c900b0e87c22
 - LaMBDA: https://medium.com/aiguys/lamda-language-models-for-dialog-applications-b76d24eb1f15
