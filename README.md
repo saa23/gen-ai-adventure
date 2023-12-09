@@ -169,8 +169,8 @@ LLM that designed for dialog purpose created by Google in May 2021. The model si
 
 
 # Reference
-[Introduction to Generative AI Learning Path by Google](https://www.cloudskillsboost.google/paths/118)
-[Introduction to Generative AI](https://www.cloudskillsboost.google/course_templates/536)
-[Introduction to LLM](https://www.cloudskillsboost.google/course_sessions/4021096/video/379143)
-PaLM: https://medium.com/mlearning-ai/googles-pathways-to-language-model-palm-scaling-to-new-heights-in-ai-understanding-c900b0e87c22
-
+- [Introduction to Generative AI Learning Path by Google](https://www.cloudskillsboost.google/paths/118)
+- [Introduction to Generative AI](https://www.cloudskillsboost.google/course_templates/536)
+- [Introduction to LLM](https://www.cloudskillsboost.google/course_sessions/4021096/video/379143)
+- PaLM: https://medium.com/mlearning-ai/googles-pathways-to-language-model-palm-scaling-to-new-heights-in-ai-understanding-c900b0e87c22
+- LaMBDA: https://medium.com/aiguys/lamda-language-models-for-dialog-applications-b76d24eb1f15
