@@ -35,9 +35,9 @@ Some of the causes:
 4. The model is not given enough constraint. 
 
 ### 1.1.2. Prompt Design
-Prompt Design is design/ construction of prompting that used as contraint for generative model. It guides the model in producing the intended responses.
+Prompt Design is instructions that used as a guidance for generative model in producing the desired responses.
 
-The quality of the input determines the quality of the output.
+Prompt Engineering = practice of developing and optimizing prompts to efficiently use language models for a variety of applications.
 
 ### 1.1.3. Model Types Based on the Task 
 - Text to text
@@ -73,10 +73,94 @@ The quality of the input determines the quality of the output.
 ## 1.2. When to fine-tune the models?
 Pre-trained generative models are already trained on a large dataset. But they still have tendency for hallucination. Therefore for specific context, better to fine-tune (post training) the models on specific context dataset for more accurate and intended response.
 
+## 1.3. What differs it from traditional ML Development?
+In terms of its model development.
 
-# 2. Introduction to Large Language Models
+| Gen AI (Pre-trained API) | Tradition ML|
+|:-------- |:-------- |
+|No ML Expertise needed | ML Expertise needed|
+|No training examples | training examples needed |
+|No need to train a model | need to train a model |
+| Thinks about prompt design | compute time + hardware needed|
+|  | Thinks about minimizing a loss function |
+
+# 2. Introduction to Large Language Models (LLM)
+## 2.1. What is LLM?
+LLM is a subset of Deep Learning.
+
+Type of AI model that produce new content, whether text, image, video, or synthetic data.
+
+LLM is general-purpose language models that can be pre-trained and then fine-tuned (adapt) for specific purposes.
+
+Some tasks that commonly solved using LLM:
+- text classification
+- question answering
+- document summarization
+- text generation
+
+The pre-trained LLM can adapt to more specific task or context by fine-tuning process (post-training).
 
 
+Types of LLM:
+1. Generic (Raw) Language Model
+
+Predict the next word based on the training data
+
+2. Instruction Tuned
+
+Predict a response to the instruction given in the input
+
+3. Dialog Tuned
+
+Predict the next response to the given dialog of user
+
+### 2.1.1. LLM general characteristics
+1. Large Size Dataset
+
+It is trained on very vast size dataset (usually at least in petabyte scale)
+
+2. Large number of parameters
+
+Hyperparameter is parameter set during training process. Number of parameter reflects to the model size.
+
+3. General Purpose
+
+LLM is able to solve common problems.
+
+4. Pre-trained and fine-tuned
+
+LLM is pre-trained to solve general problems then fine-tuned to solve more specific problems.
+
+
+### 2.1.2. Benefit using LLM
+1. Single model LLM can be used for different tasks
+2. Fine-tune process require minimal field data (usually decent enough  result on few-shot or even zero-shot training)
+3. Performance is growing with more data and parameters
+
+## 2.2. Prompt Tuning
+Prompt Design is instructions that used as a guidance for generative model in producing the desired responses.
+
+Prompt Engineering = practice of developing and optimizing prompts to efficiently use language models for a variety of applications.
+
+Prompt design is a more general concepts while prompt engineering is  a more specialized concept.
+
+## 2.3. LLMs examples
+1. PaLM (Pathways Language Model)
+
+In April 2022, Google released PaLM. It is a decoder-based transformers model and has 540B parameters.
+
+While traditional language models process text sequentially, PaLM employs a multi-path approach thus able to comprehend text paralelly.
+These paths can represent different linguistic features, syntactic structure, or semantic context.
+
+Strengh:
+- improved comprehension of context
+- efficient parallelism
+- enhanced performance-resource tradeoff
+- scalability to larger models
+- broader applicability
+
+2. LaMDA (Language Model for Dialogue Applications)
+LLM that designed for dialog purpose created by Google in May 2021. The model size from 2B to 137B parameters. It is initially trained to predict the next token in a text corpus. LaMDA models is able to performs in both classification and text generation tasks.
 
 # 3. Introduction to Responsible AI
 
@@ -86,3 +170,7 @@ Pre-trained generative models are already trained on a large dataset. But they s
 
 # Reference
 [Introduction to Generative AI Learning Path by Google](https://www.cloudskillsboost.google/paths/118)
+[Introduction to Generative AI](https://www.cloudskillsboost.google/course_templates/536)
+[Introduction to LLM](https://www.cloudskillsboost.google/course_sessions/4021096/video/379143)
+PaLM: https://medium.com/mlearning-ai/googles-pathways-to-language-model-palm-scaling-to-new-heights-in-ai-understanding-c900b0e87c22
+
