@@ -1,0 +1,6 @@
+transformers[torch]
+datasets
+evaluate
+sentencepiece
+comet-ml
+comet-llm
