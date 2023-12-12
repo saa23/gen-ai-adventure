@@ -1,6 +1,10 @@
+openai
 transformers[torch]
 datasets
 evaluate
 sentencepiece
 comet-ml
 comet-llm
+python-dotenv
+jupyter
+ipython
