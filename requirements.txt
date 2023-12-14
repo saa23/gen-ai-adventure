@@ -8,3 +8,8 @@ comet-llm
 python-dotenv
 jupyter
 ipython
+langchain
+google-search-results
+numexpr
+chromadb
+tiktoken
